@@ -3,6 +3,9 @@
   "owner": {
     "name": "Eoh"
   },
+  "metadata": {
+    "description": "日本語文書の校正・表記揺れチェックに特化した Claude Code プラグインのマーケットプレイス。"
+  },
   "plugins": [
     {
       "name": "ja-writing-tools",

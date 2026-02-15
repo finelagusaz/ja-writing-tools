@@ -15,7 +15,7 @@
 
 ## インストール
 
-Claude Code で以下を実行してください。
+Claude Code で以下を順番に実行してください。
 
 ### 1. マーケットプレイスに追加
 
@@ -23,10 +23,22 @@ Claude Code で以下を実行してください。
 /plugin marketplace add finelagusaz/ja-writing-tools
 ```
 
-### 2. プラグインをインストール
+### 2. 追加されたことを確認（任意）
+
+```
+/plugin marketplace list
+```
+
+### 3. プラグインをインストール
 
 ```
 /plugin install ja-writing-tools
+```
+
+### 4. インストールされたことを確認（任意）
+
+```
+/plugin list
 ```
 
 ## スキルの使い方
