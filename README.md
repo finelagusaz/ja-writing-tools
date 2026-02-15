@@ -29,10 +29,20 @@ Claude Code で以下を順番に実行してください。
 /plugin marketplace list
 ```
 
-### 3. プラグインをインストール
+表示された一覧から、インストールしたいプラグイン名を選んでください。
+
+- 現在提供中: `ja-writing-tools-proofread-ja`（`proofread-ja` スキル）
+
+### 3. 選んだプラグインをインストール
 
 ```
-/plugin install ja-writing-tools
+/plugin install <plugin-name>
+```
+
+例:
+
+```
+/plugin install ja-writing-tools-proofread-ja
 ```
 
 ### 4. インストールされたことを確認（任意）
@@ -72,3 +82,8 @@ Claude Code で以下を順番に実行してください。
 ## ライセンス
 
 MIT
+
+## 開発メモ（複数プラグイン運用）
+
+新しいプラグインを公開する場合は、`plugins/<skill>/` 配下に `.claude-plugin/plugin.json` と `skills/<skill>/` を作成し、`.claude-plugin/marketplace.json` の `plugins` 配列にエントリを追加します。  
+ユーザーは `/plugin marketplace list` で一覧を見て、`/plugin install <plugin-name>` で任意のプラグインを選択してインストールできます。

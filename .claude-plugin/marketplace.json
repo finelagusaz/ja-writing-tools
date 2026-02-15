@@ -8,9 +8,9 @@
   },
   "plugins": [
     {
-      "name": "ja-writing-tools",
-      "source": "./",
-      "description": "日本語ライティング支援プラグイン。校正、表記揺れチェックなど、日本語文書作成を支援するスキル集。",
+      "name": "ja-writing-tools-proofread-ja",
+      "source": "./plugins/proofread-ja",
+      "description": "日本語テキストの校正に特化したプラグイン。誤字脱字・同音異義語・表記揺れ・文法をチェックします。",
       "version": "1.0.0",
       "license": "MIT"
     }

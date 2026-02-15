@@ -1,0 +1,9 @@
+{
+  "name": "ja-writing-tools-proofread-ja",
+  "description": "日本語テキストの校正に特化した Claude Code プラグイン。誤字脱字・同音異義語・表記揺れ・文法をチェックします。",
+  "version": "1.0.0",
+  "author": {
+    "name": "Eoh"
+  },
+  "license": "MIT"
+}
