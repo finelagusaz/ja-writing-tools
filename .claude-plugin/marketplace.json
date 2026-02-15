@@ -1,0 +1,15 @@
+{
+  "name": "ja-writing-tools",
+  "owner": {
+    "name": "Eoh"
+  },
+  "plugins": [
+    {
+      "name": "ja-writing-tools",
+      "source": ".",
+      "description": "日本語ライティング支援プラグイン。校正、表記揺れチェックなど、日本語文書作成を支援するスキル集。",
+      "version": "1.0.0",
+      "license": "MIT"
+    }
+  ]
+}
