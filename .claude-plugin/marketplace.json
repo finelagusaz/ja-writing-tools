@@ -1,7 +1,7 @@
 {
   "name": "ja-writing-tools",
   "owner": {
-    "name": "Eoh"
+    "name": "Fine Lagusaz"
   },
   "metadata": {
     "description": "日本語文章の校正・推敲を支援する Claude Code プラグインのマーケットプレイス。"
