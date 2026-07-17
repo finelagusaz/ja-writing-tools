@@ -4,21 +4,21 @@
     "name": "Eoh"
   },
   "metadata": {
-    "description": "日本語文書の校正・表記揺れチェックに特化した Claude Code プラグインのマーケットプレイス。"
+    "description": "日本語文章の校正・推敲を支援する Claude Code プラグインのマーケットプレイス。"
   },
   "plugins": [
     {
       "name": "ja-writing-tools-proofread-ja",
       "source": "./plugins/proofread-ja",
       "description": "日本語テキストの校正に特化したプラグイン。誤字脱字・同音異義語・表記揺れ・文法をチェックします。",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "license": "MIT"
     },
     {
       "name": "ja-writing-tools-refine-ja",
       "source": "./plugins/refine-ja",
       "description": "日本語文章の推敲・リライト支援。小説、ブログ、技術文書など、目的に合わせた文体や表現の改善を提案します。",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "license": "MIT"
     }
   ]
