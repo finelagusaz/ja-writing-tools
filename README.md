@@ -44,6 +44,17 @@
 - 「技術文書として、もっとあいまいな表現をなくして」
 - 「小説の推敲をして。情景描写を増やしたい」
 
+## 評価
+
+各スキルの `evals/` に、動作を確かめるための題を置いています。Claude Code v2.1.269 以降では、スキルのディレクトリで次のように実行できます（モデルを実際に動かすため課金されます）。
+
+```sh
+cd plugins/proofread-ja/skills/proofread-ja
+claude plugin eval . --allow-tools Write,Edit,Bash --scaffold --no-publish
+```
+
+`--no-publish` を外すと、結果のレポートが claude.ai にも公開されます。
+
 ## 推奨モデル
 
 | スキル         | 推奨モデル         | 理由                                                   |

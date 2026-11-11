@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: meaning-shift-idioms-not-high
+expected_outcome: |
+  「役不足」「煮詰まる」が本来の意味と異なる使い方であることを指摘する。
+  意味変化が進行中の語なので、確信度：高にはしない。

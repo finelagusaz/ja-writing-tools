@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: technical-vague-text-uses-placeholders
+expected_outcome: |
+  曖昧な箇所を指摘し、具体化が必要な部分はプレースホルダーで示す。
+  原文にないコマンド名・ファイル名・設定項目・数値を事実として書かない。

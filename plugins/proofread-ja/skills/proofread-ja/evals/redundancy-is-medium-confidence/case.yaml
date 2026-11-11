@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: redundancy-is-medium-confidence
+expected_outcome: |
+  同音異義語の誤り（以外な→意外な）は確信度：高、重複表現（まず最初に、過半数を超える、一番最初）は
+  確信度：中の提案として報告する。

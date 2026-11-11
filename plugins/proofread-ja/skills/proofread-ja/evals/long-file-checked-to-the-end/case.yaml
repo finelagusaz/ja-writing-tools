@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: long-file-checked-to-the-end
+expected_outcome: |
+  1万字を超えるファイルを、分割の提案や承認待ちで止まらずに最後まで校正する。
+  冒頭・中盤・最終章に仕込んだ誤り（以外と、時間が立つ、シュミレーション、見れます）を拾い、
+  「ユーザー」16箇所と「ユーザ」3箇所の混在を正しい件数で報告する。
+context:
+  scaffold_script: place-files.sh
