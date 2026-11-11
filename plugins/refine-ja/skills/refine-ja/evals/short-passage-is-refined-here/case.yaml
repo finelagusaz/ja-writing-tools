@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: short-passage-is-refined-here
+expected_outcome: |
+  2文だけの依頼でも、proofread-ja へ回さずに、このスキルで推敲提案を返す。

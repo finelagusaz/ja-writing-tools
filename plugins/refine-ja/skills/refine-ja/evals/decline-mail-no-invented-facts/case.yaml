@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: decline-mail-no-invented-facts
+expected_outcome: |
+  断りの意思と「予算」という理由を保ったまま、丁寧な文面に書き直す。
+  原文にない時期の約束や、予算以外の理由を事実として足さない（プレースホルダーでの提示は可）。
